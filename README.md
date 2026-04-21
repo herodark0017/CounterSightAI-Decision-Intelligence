@@ -40,6 +40,7 @@ countersight-ai/
 ├── notebooks/        # Experimentation & testing
 ├── main.py           # Entry point for full pipeline
 └── requirements.txt
+
 System Architecture
 Input
  → Decision Model (Prediction)
@@ -103,11 +104,15 @@ Hiring decision support
 Financial risk analysis
 Healthcare decision systems
 AI transparency and governance
-Future Improvements
+
+
+Future Improvements:
 Add causal reasoning for better counterfactual validity
 Improve alignment between SHAP and counterfactual outputs
 Add real-time UI dashboard
 Extend to multi-domain decision systems
+
+
 License
 
 This project is created for educational and research purposes.
