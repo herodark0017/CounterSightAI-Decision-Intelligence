@@ -81,28 +81,34 @@ python main.py
 
 ## Example Workflow (Loan Approval)
 
-**Input:**
-Income: $2,500
-Credit Score: 610
-Debt: High
+### Input
 
-**Output:**
-Prediction: Loan Rejected
-Explanation: Low credit score and high debt significantly influenced the decision.
-Retrieved Evidence:
-Credit score below 650 increases rejection risk
-High debt-to-income ratio increases default probability
-Counterfactual (What to Change):
-Increase credit score to ~660
-Reduce debt by 20–30%
-New Outcome: Approval probability increases to ~72%
+- Income: $2,500  
+- Credit Score: 610  
+- Debt: High  
 
-**Use Cases**
-Loan approval systems
-Hiring decision support
-Financial risk analysis
-Healthcare decision systems
-AI transparency and governance
+### Output
+
+- **Prediction:** Loan Rejected  
+- **Explanation:** Low credit score and high debt significantly influenced the decision  
+
+**Retrieved Evidence:**
+- Credit score below 650 increases rejection risk  
+- High debt-to-income ratio increases default probability  
+
+**Counterfactual (What to Change):**
+- Increase credit score to ~660  
+- Reduce debt by 20–30%  
+
+- **New Outcome:** Approval probability increases to ~72%
+
+## Use Cases
+
+- Loan approval systems  
+- Hiring decision support  
+- Financial risk analysis  
+- Healthcare decision systems  
+- AI transparency and governance  
 
 
 ## Future Improvements:
