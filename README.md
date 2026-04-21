@@ -40,21 +40,21 @@ countersight-ai/
 ├── notebooks/        # Experimentation & testing
 ├── main.py           # Entry point for full pipeline
 └── requirements.txt
-
-System Architecture
-Input
+```
+## System Architecture
+**Input**
  → Decision Model (Prediction)
  → Explainability (SHAP)
  → RAG Retrieval (Evidence)
  → Counterfactual Generation
  → Final Explanation (LLM/Template)
 
-Contributors
+## Contributors
 Muhammad Annas
 Muhammad Ahsan
 Muhammad Usman Iqbal
 
-Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have:
 
@@ -69,26 +69,24 @@ cd countersight-ai
 python -m venv venv
 
 Windows:
-
 .\venv\Scripts\activate
 
 Mac/Linux:
-
 source venv/bin/activate
+
 3. Install Dependencies
 pip install -r requirements.txt
 Running the Project
 python main.py
-Example Workflow (Loan Approval)
 
-Input:
+## Example Workflow (Loan Approval)
 
+**Input:**
 Income: $2,500
 Credit Score: 610
 Debt: High
 
-Output:
-
+**Output:**
 Prediction: Loan Rejected
 Explanation: Low credit score and high debt significantly influenced the decision.
 Retrieved Evidence:
@@ -98,7 +96,8 @@ Counterfactual (What to Change):
 Increase credit score to ~660
 Reduce debt by 20–30%
 New Outcome: Approval probability increases to ~72%
-Use Cases
+
+**Use Cases**
 Loan approval systems
 Hiring decision support
 Financial risk analysis
@@ -106,19 +105,19 @@ Healthcare decision systems
 AI transparency and governance
 
 
-Future Improvements:
+## Future Improvements:
 Add causal reasoning for better counterfactual validity
 Improve alignment between SHAP and counterfactual outputs
 Add real-time UI dashboard
 Extend to multi-domain decision systems
 
 
-License
+## License
 
 This project is created for educational and research purposes.
 You can use the MIT License for open-source usage.
 
-Final Note
+## Final Note
 
 CounterSight AI represents a shift from:
 
