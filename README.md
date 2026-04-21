@@ -50,29 +50,29 @@ countersight-ai/
  → Final Explanation (LLM/Template)
 
 ## Contributors
-Muhammad Annas
-Muhammad Ahsan
-Muhammad Usman Iqbal
+- Muhammad Annas
+- Muhammad Ahsan
+- Muhammad Usman Iqbal
 
 ## Prerequisites
 
 Before running the project, ensure you have:
 
-Python (v3.8+)
-pip
-Virtual environment (recommended)
-Installation & Setup
-1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/countersight-ai.git
-cd countersight-ai
-2. Create Virtual Environment
-python -m venv venv
+- Python (v3.8+)
+- pip
+- Virtual environment (recommended)
+- Installation & Setup
+- 1. Clone the Repository
+- git clone https://github.com/YOUR_USERNAME/countersight-ai.git
+- cd countersight-ai
+- 2. Create Virtual Environment
+- python -m venv venv
 
-Windows:
-.\venv\Scripts\activate
+- Windows:
+- .\venv\Scripts\activate
 
-Mac/Linux:
-source venv/bin/activate
+- Mac/Linux:
+- source venv/bin/activate
 
 3. Install Dependencies
 pip install -r requirements.txt
