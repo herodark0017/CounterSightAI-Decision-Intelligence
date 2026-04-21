@@ -47,10 +47,12 @@ Input
  → RAG Retrieval (Evidence)
  → Counterfactual Generation
  → Final Explanation (LLM/Template)
+
 Contributors
 Muhammad Annas
 Muhammad Ahsan
 Muhammad Usman Iqbal
+
 Prerequisites
 
 Before running the project, ensure you have:
