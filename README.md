@@ -18,7 +18,7 @@ Unlike traditional black-box systems, CounterSight AI not only predicts outcomes
 - **Machine Learning:** Scikit-learn, XGBoost
 - **Explainability:** SHAP
 - **RAG / NLP:** Sentence Transformers, FAISS, Hugging Face Transformers
-- **Counterfactuals:** DiCE (Diverse Counterfactual Explanations)
+- **Counterfactuals:** DiCE (Diverse CounterFactual Explanations)
 - **Backend / Core:** Python
 
 ## Project Structure
